@@ -21,6 +21,7 @@ Unadded Features:
 I ran into an issue early on with having multiple requests trigger at the same time.
 What this would end up doing, is making the carriage almost lock in place as it tried to figure out 
 which request had a higher priority. In order to alleviate the issue for the time being, I created
-a method to disable all button presses (other than the FIRE button, Saftey First). What this did is 
-prevent spamming of the buttons so that the elevator wouldnt get stuck. The FIRE button still works
-when the others a disabled however. I would love to discuss this and come up with a possible solutuion for it.
+a method to disable all button presses (other than the FIRE button, Saftey First) while the elevator car 
+was moving. What this did is prevent spamming of the buttons so that the elevator wouldnt get stuck. 
+The FIRE button still works when the others a disabled however. I would love to discuss this and come up
+with a better solutuion for this issue I encountered.
