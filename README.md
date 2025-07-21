@@ -6,7 +6,7 @@ I would love to hear how it was solved)
 I used VSCode to create this, so the instructions I am giving relate directly to that
 (Im also assuming that most of the instructions I am giving are not needed, I just wanted to be sure)
 
-#======================================================================================================================
+#==========================================================================
 
 To run:
 1. Download all 5 java files from the repo
@@ -15,7 +15,7 @@ To run:
 4. Hit either the run button in the top right or type "java Main" in the terminal. Be sure to capitalize the M in Main
 5. Be amazed at the awe of the elevator simulation
 
-#======================================================================================================================
+#==========================================================================
 
 Unadded Features:
 I ran into an issue early on with having multiple requests trigger at the same time.
