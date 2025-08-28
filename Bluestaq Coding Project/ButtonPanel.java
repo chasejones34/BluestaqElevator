@@ -97,7 +97,7 @@ public class ButtonPanel extends JPanel{
 
     }
 
-    //Loads teh images for teh button
+    //Loads the images for the button
     private ImageIcon loadButtonIcon(String path, int width, int height) {
         ImageIcon rawIcon = new ImageIcon(path);
         Image scaled = rawIcon.getImage().getScaledInstance(width, height, Image.SCALE_SMOOTH);
@@ -115,3 +115,4 @@ public class ButtonPanel extends JPanel{
 
     
 }
+
