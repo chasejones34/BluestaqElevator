@@ -17,7 +17,7 @@ public class Firetruck extends JPanel {
         try {
             firetruck = new ImageIcon(getClass().getResource("Resources/FireTruck.jpg")).getImage();
             } catch (Exception e) {
-            System.out.println("Could not load carriage image.");
+            System.out.println("Could not load firetruck image.");
             }
     }
 
@@ -73,7 +73,7 @@ public class Firetruck extends JPanel {
         enterTimer.start();
     }
 
-    //Animates teh firetruck coming off screen
+    //Animates the firetruck coming off screen
     public void animateOut() {
         Timer exitTimer = new Timer(10, null);
         exitTimer.addActionListener(new ActionListener() {
@@ -89,4 +89,5 @@ public class Firetruck extends JPanel {
         });
         exitTimer.start();
     }
+
 }
